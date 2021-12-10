@@ -1,59 +1,59 @@
-# 00:10:00 (periodic user-mode task, 100 us period, priority 99)
+# 12:00:01 (periodic user-mode task, 100 us period, priority 99)
 # ----lat min|----lat avg|----lat max|-overrun|---msw|
-#      -0.134|      1.285|     46.933|       0|     0|
+#      -0.329|      1.366|     46.734|       0|     0|
 # Xenomai version: Xenomai/cobalt v3.1
 # Linux kk-ThinkPad-E465 4.9.38-xenomai-3.1 #1 SMP Sun Dec 5 12:38:18 CST 2021 i686 athlon i686 GNU/Linux
-# Kernel parameters: BOOT_IMAGE=/boot/vmlinuz-4.9.38-xenomai-3.1 root=UUID=5d2fa022-c911-4152-ad8b-2b5cd7290710 ro quiet splash i915.i915_enable_rc6=0 i915.powersave=0 noapic xeno_nucleus.xenomai_gid=1234 xenomai.allowed_group=1234 vt.handoff=7 init=/sbin/upstart
+# Kernel parameters: BOOT_IMAGE=/boot/vmlinuz-4.9.38-xenomai-3.1 root=UUID=5d2fa022-c911-4152-ad8b-2b5cd7290710 ro isolcpus=2,3 xenomai.supported_cpus=0x06 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1 acpi_irq_nobalance noirqbalance i915.enable_rc6=0 i915.enable_dc=0 i915.disable_power_well=0 i915.enable_execlists=0 nmi_watchdog=0 nosoftlockup processor.max_cstate=0 intel.max_cstate=0 processor_idle.max_cstate=0 intel_idle.max_cstate=0 clocksource=tsc tsc=reliable nmi_watchdog=0 nosoftlockup intel_pstate=disable idle=poll nohalt nosmap mce=ignore_ce quiet splash xeno_nucleus.xenomai_gid=1234 xenomai.allowed_group=1234 vt.handoff=7 init=/sbin/upstart
 # I-pipe release #3 detected
 # Cobalt core 3.1 detected
 # Compiler: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 # Build args: --with-pic --enable-smp
 0 1
-0.5 2505656
-1.5 2946000
-2.5 6536
-3.5 450143
-4.5 73403
-5.5 11160
-6.5 1348
-7.5 216
-8.5 243
-9.5 118
-10.5 223
-11.5 121
-12.5 185
-13.5 10
-14.5 62
-15.5 155
-16.5 148
-17.5 248
-18.5 174
-19.5 261
-20.5 257
-21.5 203
-22.5 135
-23.5 227
-24.5 111
-25.5 231
-26.5 130
-27.5 162
-28.5 175
-29.5 143
-30.5 157
-31.5 219
-32.5 141
-33.5 174
-34.5 159
-35.5 198
-36.5 159
-37.5 125
-38.5 177
-39.5 83
-40.5 271
-41.5 37
-42.5 159
-43.5 35
-44.5 18
-45.5 16
-46.5 6
+0.5 42080713
+1.5 369880504
+2.5 14391650
+3.5 4166827
+4.5 733210
+5.5 161538
+6.5 40261
+7.5 19193
+8.5 16248
+9.5 15864
+10.5 15706
+11.5 15713
+12.5 15818
+13.5 15763
+14.5 15562
+15.5 15529
+16.5 15594
+17.5 15622
+18.5 15486
+19.5 15641
+20.5 15560
+21.5 15586
+22.5 15735
+23.5 15703
+24.5 15702
+25.5 15674
+26.5 15504
+27.5 15700
+28.5 15793
+29.5 15512
+30.5 15589
+31.5 15450
+32.5 15738
+33.5 15689
+34.5 15671
+35.5 15605
+36.5 17452
+37.5 16372
+38.5 26795
+39.5 21664
+40.5 1860
+41.5 12675
+42.5 1487
+43.5 434
+44.5 87
+45.5 17
+46.5 2
 47 1
