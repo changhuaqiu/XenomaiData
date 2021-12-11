@@ -1,0 +1,57 @@
+# 02:00:00 (periodic user-mode task, 100 us period, priority 99)
+# ----lat min|----lat avg|----lat max|-overrun|---msw|
+#      -0.034|      1.272|     44.166|       0|     0|
+# Xenomai version: Xenomai/cobalt v3.1
+# Linux kk-ThinkPad-E465 4.9.38-xenomai-3.1 #1 SMP Sun Dec 5 12:38:18 CST 2021 i686 athlon i686 GNU/Linux
+# Kernel parameters: BOOT_IMAGE=/boot/vmlinuz-4.9.38-xenomai-3.1 root=UUID=5d2fa022-c911-4152-ad8b-2b5cd7290710 ro quiet splash xeno_nucleus.xenomai_gid=1234 xenomai.allowed_group=1234 vt.handoff=7 init=/sbin/upstart
+# I-pipe release #3 detected
+# Cobalt core 3.1 detected
+# Compiler: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+# Build args: --with-pic --enable-smp
+0 1
+0.5 10474511
+1.5 59437049
+2.5 1058528
+3.5 645622
+4.5 235685
+5.5 33137
+6.5 6601
+7.5 3850
+8.5 3316
+9.5 3149
+10.5 3124
+11.5 3108
+12.5 3132
+13.5 3103
+14.5 3050
+15.5 3160
+16.5 3124
+17.5 3090
+18.5 3082
+19.5 3102
+20.5 3243
+21.5 3100
+22.5 3163
+23.5 3176
+24.5 3007
+25.5 3111
+26.5 3044
+27.5 3162
+28.5 3066
+29.5 3168
+30.5 3039
+31.5 3109
+32.5 3150
+33.5 3105
+34.5 3051
+35.5 3091
+36.5 3439
+37.5 3096
+38.5 5834
+39.5 6206
+40.5 329
+41.5 159
+42.5 68
+43.5 10
+44.5 3
+45 1

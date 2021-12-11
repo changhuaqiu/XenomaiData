@@ -1,6 +1,6 @@
-# 12:00:01 (periodic user-mode task, 100 us period, priority 99)
+# 02:00:01 (periodic user-mode task, 100 us period, priority 99)
 # ----lat min|----lat avg|----lat max|-overrun|---msw|
-#      -0.329|      1.366|     46.734|       0|     0|
+#      -0.515|      0.521|     41.910|       0|     0|
 # Xenomai version: Xenomai/cobalt v3.1
 # Linux kk-ThinkPad-E465 4.9.38-xenomai-3.1 #1 SMP Sun Dec 5 12:38:18 CST 2021 i686 athlon i686 GNU/Linux
 # Kernel parameters: BOOT_IMAGE=/boot/vmlinuz-4.9.38-xenomai-3.1 root=UUID=5d2fa022-c911-4152-ad8b-2b5cd7290710 ro isolcpus=2,3 xenomai.supported_cpus=0x06 nohz_full=2,3 rcu_nocbs=2,3 irqaffinity=0,1 acpi_irq_nobalance noirqbalance i915.enable_rc6=0 i915.enable_dc=0 i915.disable_power_well=0 i915.enable_execlists=0 nmi_watchdog=0 nosoftlockup processor.max_cstate=0 intel.max_cstate=0 processor_idle.max_cstate=0 intel_idle.max_cstate=0 clocksource=tsc tsc=reliable nmi_watchdog=0 nosoftlockup intel_pstate=disable idle=poll nohalt nosmap mce=ignore_ce quiet splash xeno_nucleus.xenomai_gid=1234 xenomai.allowed_group=1234 vt.handoff=7 init=/sbin/upstart
@@ -9,51 +9,46 @@
 # Compiler: gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 # Build args: --with-pic --enable-smp
 0 1
-0.5 42080713
-1.5 369880504
-2.5 14391650
-3.5 4166827
-4.5 733210
-5.5 161538
-6.5 40261
-7.5 19193
-8.5 16248
-9.5 15864
-10.5 15706
-11.5 15713
-12.5 15818
-13.5 15763
-14.5 15562
-15.5 15529
-16.5 15594
-17.5 15622
-18.5 15486
-19.5 15641
-20.5 15560
-21.5 15586
-22.5 15735
-23.5 15703
-24.5 15702
-25.5 15674
-26.5 15504
-27.5 15700
-28.5 15793
-29.5 15512
-30.5 15589
-31.5 15450
-32.5 15738
-33.5 15689
-34.5 15671
-35.5 15605
-36.5 17452
-37.5 16372
-38.5 26795
-39.5 21664
-40.5 1860
-41.5 12675
-42.5 1487
-43.5 434
-44.5 87
-45.5 17
-46.5 2
-47 1
+0.5 67904961
+1.5 3787074
+2.5 114039
+3.5 29221
+4.5 5575
+5.5 4494
+6.5 4547
+7.5 4508
+8.5 4683
+9.5 4575
+10.5 4761
+11.5 5261
+12.5 3850
+13.5 4334
+14.5 4776
+15.5 4785
+16.5 4441
+17.5 4636
+18.5 4572
+19.5 4605
+20.5 4415
+21.5 4606
+22.5 4481
+23.5 4537
+24.5 4600
+25.5 4581
+26.5 4473
+27.5 4582
+28.5 4554
+29.5 4490
+30.5 4530
+31.5 4414
+32.5 4634
+33.5 4644
+34.5 4482
+35.5 4610
+36.5 4765
+37.5 5245
+38.5 10692
+39.5 1121
+40.5 29
+41.5 4
+42 1
